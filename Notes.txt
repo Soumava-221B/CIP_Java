@@ -1,0 +1,127 @@
+A platform is a combination of architecture and OS you are using.
+
+When a java is compiled then the code is converted into java bytecode, JVM runs the bytecode and converts that code to run on that platform, therefore the java is platform independent. This JVM is different for windown, linux etc. and it is pre-installed in the machine.
+
+Java has simple compilation and complex running process and in c and c++ complex compilation and simple running process.
+
+Java is the #1 developer platform in the world. More than 10 million developers use Java worldwide. 13 billion devices run Java.
+
+Java does not have pointers so you cannot directly access memory, it's only references. Hence java is ore secure.
+
+Java is Statically Typed: Like in C and C++ if you want to use a variable in Java, you have to declare it first, tell data type. Advantage it runs faster than in python where you don't need to declare the data type.
+
+Advantages of Java over C++ other programing langauges:-
+1. Atomatic Garbage collection
+2. Dealocating Dynamically Allocated Memory
+3. Index out of bound checking (i.e. if you write a bad code it's going out of array it will generate exception)
+4. Better exception handling
+5. Better Multithreading
+6. It's really diffucult to write a bad code in java
+
+Java is more prefered langauge by software developers.
+
+JRE = JVM + Java Class Library
+JDK = JRE + Dev Tools
+Dev tools = Java compiler, Java debuger, Java Document Generator
+
+IDE = IntelliJ
+
+Classpath is a parameter in the Java Virtual Machine or the Java compiler that specifies the location of user-defined classes and packages.
+
+Path a variable defines where all the commands might be present. 
+
+Classpath is a variable where you specifies the root directory or packages that you use.
+
+Static method is special method which can be called without creating an object.
+
+Java decide to have arguments as an array of strings.
+(i.e. (String[] args)) So that you can pass strigs at command line
+
+System.out.println("Hello World")
+In this System is a standard Java class
+Out is an object of print stream
+println is a method inside the print stream class
+
+** When a .java file is compiled then a bite code is generated.
+
+Camelcase: Camel case is the practice of writing phrases without spaces or punctuation, indicating the separation of words with a single capitalized letter, and the first word starting with either case.
+
+Java final keyword is a non-access specifier that is used to restrict a class, variable, and method.
+
+There are two of variables primitive and non-primitive type
+1. Primitive:
+2. Non- Primitives are objects of some classes 
+
+Byte is used for storing 8 bit out of which 7 bits is sotre a value and 1 bit is a sign bit.
+
+In java char is used to store 16 bit unicode characters.
+
+Literals in Java is a synthetic representation of boolean, numeric, character, or string data.
+
+eg: bool isValid = true; // Here true is a Literal
+float pi = 3.14; // 3.14 Literal
+
+System is a predefined library class in java.
+
+Primitive variable is store in stack memory.
+Stack memory is used for function call 
+Heap memory is used for dynamic memory allocation.
+
+Primitive vs Non-Primitive
+1. Non-Primitive type varibles are always references
+2. Memory for Non-Primitive is always allocated on Heap.
+3. Member of Non-Primitive get deafault values
+
+Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes. For example, converting an int to an Integer, a double to a Double, and so on. If the conversion goes the other way, this is called unboxing.
+
+Primitive type of conversion
+1. Widening/Implicit conversion
+2. Narrowing/Explicit Conversion
+
+Widening Conversion
+byte->short->int->long->float->double
+
+boolean	    1
+byte	      8 (1 byte)
+char	      16 (2 bytes)
+short	      16(2 bytes)
+int	        32 (4 bytes)
+long	      64 (8 bytes)
+float	      32 (4 bytes)
+double	    64 (8 bytes)
+
+when a char is assigned to int it's Unicode value is assigned(16 bit) 
+
+In java, the numeric data types are compatible with each other but no automatic conversion is supported from numeric type to char or boolean. Also, char and boolean are not compatible with each other.
+
+Explicit Conversion
+If we want to assign a value of a larger data type to a smaller data type we perform explicit type casting or narrowing.  
+
+Double->Float->Long->Int->Short->Byte
+
+Java BufferedReader class is used to read the text from a character-based input stream. It can be used to read data line by line by readLine() method. It makes the performance fast.
+
+System.in is an input stream that gives you a stream of bytes
+
+InputStreamReader it converts stream of bytes to stream of characters.
+
+BufferedReader it expects a stream of characters to read data from. 
+
+Exceptions are unwanted condtion which happen at runtime.
+
+BufferedReader is more synchronised, when you are using multiplethreads then BufferedReader should be preffered.
+
+Types of Java Output:-
+1. System.out.println()
+2. System.out.print()
+3. System.out.foramt()  or  System.out.printf()
+
+System.out.foramt()
+Floating point numbers dates and times
+
+Q. Why do we need command line arguments?
+Ans. The command-line arguments in Java allow the programmers to pass the arguments during the execution of a program. The users can pass the arguments during the execution by passing the command-line arguments inside the main() method.
+
+A command-line argument is nothing but the information that we pass after typing the name of the Java program during the program execution. These arguments get stored as Strings in a String array that is passed to the main() function.
+
+We can use these command-line arguments as input in our Java program.
